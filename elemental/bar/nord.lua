@@ -343,7 +343,7 @@ awful.screen.connect_for_each_screen(function(s)
 			{
 				-- Put some margins at the left and right edge so that
 				-- it looks better with extremely long titles/artists
-				left = dpi(293),
+				left = dpi(286),
 				cute_battery_face_wibar,
 				right = dpi(100),
 				widget = wibox.container.margin
